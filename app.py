@@ -1,13 +1,10 @@
 import streamlit as st
-from dotenv import load_dotenv
 import os
 from google import genai
 
 # =========================================================
 # LOAD GEMINI
 # =========================================================
-
-load_dotenv()
 
 api_key = os.getenv("GEMINI_API_KEY")
 
